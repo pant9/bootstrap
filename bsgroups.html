@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style> 
+body 
+
+  {background-image: url("44.jpg");
+}
+h1 {border-style: solid;font-style: italic;font-size: 70px;text-align:center;
+background-color:#ff99e6; 
+}
+
+</style>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+ <center> <h2>Button Styles</h2></center>
+  <button type="button" class="btn">Basic</button>
+  <button type="button" class="btn btn-default">Default</button>
+  <button type="button" class="btn btn-primary">Primary</button>
+  <button type="button" class="btn btn-success">Success</button>
+  <button type="button" class="btn btn-info">Info</button>
+  <button type="button" class="btn btn-warning">Warning</button>
+  <button type="button" class="btn btn-danger">Danger</button>
+  <button type="button" class="btn btn-link">Link</button>      
+</div>
+<center><h1>Button Sizes</h1></center>
+<h3>The classes that define the different sizes are:</h3>
+
+.btn-lg<br>
+.btn-sm<br>
+.btn-xs<br>
+<div class="container">
+ <button type="button" class="btn btn-primary btn-lg">Large</button>
+  <button type="button" class="btn btn-primary">Normal</button>    
+  <button type="button" class="btn btn-primary btn-sm">Small</button>
+  <button type="button" class="btn btn-primary btn-xs">XSmall</button>
+</div>
+<center><h1>Active/Disabled Buttons</h1></center>
+<h3>A button can be set to an active (appear pressed) or a disabled (unclickable) state:</h3>
+<div class="container">
+  <button type="button" class="btn btn-primary">Primary Button</button>
+  <button type="button" class="btn btn-primary active">Active Primary</button>
+  <button type="button" class="btn btn-primary disabled">Disabled Primary</button>
+</div>
+<center><h1>Bootstrap Button Groups</h1></center>
+<h3>Bootstrap allows you to group a series of buttons together (on a single line) in a button group:</h3>
+<div class="container">
+  
+  <p>The .btn-group class creates a button group:</p>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">Apple</button>
+    <button type="button" class="btn btn-primary">Samsung</button>
+    <button type="button" class="btn btn-primary">Sony</button>
+  </div>
+</div>
+<center><h1>Vertical Button Groups</h1></center>
+<h3>Bootstrap also supports vertical button groups:</h3>
+<div class="container">
+  <p>Use the .btn-group-vertical class to create a vertical button group:</p>
+  <div class="btn-group-vertical">
+    <button type="button" class="btn btn-primary">Apple</button>
+    <button type="button" class="btn btn-primary">Samsung</button>
+    <button type="button" class="btn btn-primary">Sony</button>
+  </div>
+</div>
+<center><h1>Justified Button Groups</h1></center>
+<h3>To span the entire width of the screen, use the .btn-group-justified class:</h3>
+<div class="container">
+  <p>To span the entire width of the screen, use the .btn-group-justified class:</p>
+  <div class="btn-group btn-group-justified">
+    <a href="#" class="btn btn-primary">Apple</a>
+    <a href="#" class="btn btn-primary">Samsung</a>
+    <a href="#" class="btn btn-primary">Sony</a>
+  </div>
+</div>
+<center><h1>Nesting Button Groups & Dropdown Menus</h1></center>
+<div class="container">
+  <p>Nest button groups to create drop down menus:</p>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">Apple</button>
+    <button type="button" class="btn btn-primary">Samsung</button>
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Sony <span class="caret"></span></button>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="#">Tablet</a></li>
+        <li><a href="#">Smartphone</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<center><h1>Split Button Dropdowns</h1></center>
+<div class="container">
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">Sony</button>
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+      <li><a href="#">Tablet</a></li>
+      <li><a href="#">Smartphone</a></li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>

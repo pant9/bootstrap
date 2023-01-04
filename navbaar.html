@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body{
+  background-image: url("simple.jpg");background-repeat:no-repeat;background-size:100% 100%;
+}
+h1 {border-style: solid;font-style: italic;font-size: 70px;text-align:center;
+background-color:#EE82EE;
+}
+p {font-style: normal;font-size: 25px;background-color: #FFB6C1 ;
+}
+</style>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="bootstrap1.html">bootstrap files</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="typography.html">Home</a></li>
+      <li><a href="imagegallery.html">Page 1</a></li>
+      <li><a href="jumbotron.html">Page 2</a></li>
+      <li><a href="tables.html">Page 3</a></li>
+      <li><a href="bsgroups.html">Page 4</a></li>
+      <li><a href="bsalerts.html">Page 5</a></li>
+    </ul>
+    <form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search" name="search">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</nav>
+
+<div class="container">
+  <center><h1>bootstrap files in Navbar Forms</h1></center>
+  <p>Use the .navbar-form class to vertically align form elements (same padding as links) inside the navbar.</p>
+  <p>The .input-group class is a container to enhance an input by adding an icon, text or a button in front or behind it as a "help text".</p>
+  <p>The .input-group-btn class attaches a button next to an input field. This is often used as a search bar:</p>
+
+<p>To add form elements inside the navbar, add the .navbar-form class to a form element and add an input(s).
+ Note that we have added a .form-group class to the div container holding the input. This adds proper padding
+ if you have more than one inputs (you will learn more about this in the Forms. </p>
+</div>
+
+</body>
+</html>
